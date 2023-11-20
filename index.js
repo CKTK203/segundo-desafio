@@ -6,22 +6,22 @@ function rankeadas(vitorias, derrotas){
     return somatorio
 }
 
-if(resultado < 10){
+if(resultado <= 10){
     nivelHeroi = "ferro"
 }
-else if(resultado > 11 && resultado < 20){
+else if(resultado >= 11 && resultado <= 20){
     nivelHeroi = "bronze"
 }
-else if(resultado > 21 && resultado < 50){
+else if(resultado >= 21 && resultado <= 50){
     nivelHeroi = "prata"
 }
-else if(resultado > 51 && resultado < 80){
+else if(resultado >= 51 && resultado <= 80){
     nivelHeroi = "ouro"
 }
-else if(resultado > 81 && resultado < 90){
+else if(resultado >= 81 && resultado <= 90){
     nivelHeroi = "diamante"
 }
-else if(resultado > 91 && resultado < 100){
+else if(resultado >= 91 && resultado <= 100){
     nivelHeroi = "lendário"
 }
 else if(resultado >= 101){
